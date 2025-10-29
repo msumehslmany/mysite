@@ -1,0 +1,33 @@
+@font-face{
+    font-family:Dubai;
+    src: url('fonts/DUBAI-BOLD.TTF');
+}
+
+body
+{
+    direction: rtl;
+    font-family:Dubai;
+}
+@keyframes blinkColors {
+  0%   { background-color: red; color: white; }
+  25%  { background-color: orange; color: black; }
+  50%  { background-color: yellow; color: black; }
+  75%  { background-color: green; color: white; }
+  100% { background-color: blue; color: white; }
+}
+
+#DivBanner
+{
+    background-color: aquamarine;
+    text-align: center;
+    animation: blinkColors 2s infinite;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+
+}
+.card-img-top {
+  border-radius: 15px; /* گوشه گرد */
+         /* ارتفاع ثابت */
+  object-fit: cover;    /* برش تصویر بدون تغییر نسبت */
+}
